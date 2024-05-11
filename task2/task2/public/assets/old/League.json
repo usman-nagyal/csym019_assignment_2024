@@ -1,0 +1,36 @@
+{
+    "teams": [
+        {
+            "name": "Arsenal",
+            "played": 28,
+            "points": 64,
+            "goalDifference": 30
+        },
+        {
+            "name": "Manchester City",
+            "played": 28,
+            "points": 60,
+            "goalDifference": 40
+        },
+      
+        {
+            "name": "saleem",
+            "played": 4,
+            "points": 34,
+            "goalDifference": 343
+        },
+        {
+            "name": "SALEEM",
+            "played": 33,
+            "points": 43,
+            "goalDifference": 343
+        }
+    ],
+    "topScorers": [
+        {
+            "player": "Erling Haaland",
+            "team": "Manchester City",
+            "goals": 18
+        }
+    ]
+}

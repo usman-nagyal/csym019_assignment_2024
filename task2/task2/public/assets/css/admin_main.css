@@ -1,0 +1,17 @@
+
+.bckground{
+
+    /* background:url('images/ditlogo_background.png') no-repeat 50% 5%;*/
+ 
+    background: #d3d3d4;
+ /*background: linear-gradient(90deg, rgba(61, 54, 68,1) 0%, rgba(255,255,255,1) 54%, rgba(61, 54, 68,1) 100%);*/
+ 
+ 
+   }
+ 
+.admincontainer{
+    background:url('../images/whk_dark_bglogo.png') no-repeat 50% 50%;
+    height:calc(100vh - 55px);
+    width:100%;
+    overflow-y: auto;
+}

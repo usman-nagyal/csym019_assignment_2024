@@ -1,0 +1,74 @@
+
+.bd-placeholder-img {
+
+    font-size: 1.125rem;
+
+    text-anchor: middle;
+
+    -webkit-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    user-select: none;
+
+  }
+
+
+
+  @media (min-width: 768px) {
+
+    .bd-placeholder-img-lg {
+
+      font-size: 3.5rem;
+
+    }
+
+  }
+
+
+
+.bckground{
+
+  /* background:url('images/ditlogo_background.png') no-repeat 50% 5%;*/
+
+  background: #777879;
+background: linear-gradient(90deg, rgb(119, 120, 121,1) 0%, rgb(178, 178, 178) 54%, rgb(119, 120, 121,1) 100%);
+
+
+}
+
+
+
+.mycontainer{
+    background:url('../images/whk_dark_bglogo.png') no-repeat 50% 50%;
+    height:calc(100vh - 55px);
+    width:100%;
+    overflow-y: auto;
+}
+
+
+.myrow{
+  
+    background: url(../images/safia_logo_opec.png) no-repeat 50% 40% fixed;
+}
+
+.jdark_opec{
+  background: rgba(0,0,0,0.2);
+}
+
+#ultabs li{
+border-bottom: 1px solid rgb(184, 181, 181);
+}
+#bottom{
+ 
+    width:100%;
+    
+    color:#666666;
+    background: #6c757d;
+    }
+    #bottom a{ 
+    color:#666666;
+    }
+    

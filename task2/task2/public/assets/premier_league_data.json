@@ -1,0 +1,83 @@
+{
+    "football_scores_and_fixtures": [
+      {
+        "match_date": "2024-05-01",
+        "home_team": "Manchester United",
+        "away_team": "Liverpool",
+        "home_score": 2,
+        "away_score": 1
+      },
+      {
+        "match_date": "2024-05-01",
+        "home_team": "Chelsea",
+        "away_team": "Manchester City",
+        "home_score": 0,
+        "away_score": 2
+      },
+      {
+        "match_date": "2024-05-02",
+        "home_team": "Arsenal",
+        "away_team": "Tottenham Hotspur",
+        "home_score": 1,
+        "away_score": 1
+      }
+    ],
+    "premier_league_table": [
+      {
+        "position": 1,
+        "team": "Manchester City",
+        "played": 35,
+        "won": 27,
+        "drawn": 6,
+        "lost": 2,
+        "goals_for": 80,
+        "goals_against": 30,
+        "points": 87
+      },
+      {
+        "position": 2,
+        "team": "Liverpool",
+        "played": 35,
+        "won": 25,
+        "drawn": 6,
+        "lost": 4,
+        "goals_for": 75,
+        "goals_against": 35,
+        "points": 81
+      },
+      {
+        "position": 3,
+        "team": "Chelsea",
+        "played": 35,
+        "won": 23,
+        "drawn": 8,
+        "lost": 4,
+        "goals_for": 70,
+        "goals_against": 35,
+        "points": 77
+      }
+
+    ],
+    "premier_league_top_scorers": [
+      {
+        "rank": 1,
+        "player_name": "Harry Kane",
+        "team": "Tottenham Hotspur",
+        "goals": 25
+      },
+      {
+        "rank": 2,
+        "player_name": "Mohamed Salah",
+        "team": "Liverpool",
+        "goals": 22
+      },
+      {
+        "rank": 3,
+        "player_name": "Romelu Lukaku",
+        "team": "Manchester United",
+        "goals": 21
+      }
+  
+    ]
+  }
+  
