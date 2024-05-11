@@ -1,0 +1,17 @@
+/* Target tables and their elements */
+table {
+    background-color: #222; /* Dark background for the table */
+    color: #ddd; /* Light text color for readability */
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #444; /* Border around cells */
+    padding: 5px 10px; /* Padding for content within cells */
+  }
+  
+  table thead th {
+    background-color: #333; /* Slightly darker background for headers */
+    color: #eee; /* Lighter text color for headers */
+  }
+  

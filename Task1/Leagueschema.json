@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "football_scores_and_fixtures": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "match_date": { "type": "string", "format": "date" },
+            "home_team": { "type": "string" },
+            "away_team": { "type": "string" },
+            "home_score": { "type": "integer", "minimum": 0 },
+            "away_score": { "type": "integer", "minimum": 0 }
+          },
+          "required": ["match_date", "home_team", "away_team", "home_score", "away_score"]
+        }
+      },
+      "premier_league_table": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "position": { "type": "integer", "minimum": 1 },
+            "team": { "type": "string" },
+            "played": { "type": "integer", "minimum": 0 },
+            "won": { "type": "integer", "minimum": 0 },
+            "drawn": { "type": "integer", "minimum": 0 },
+            "lost": { "type": "integer", "minimum": 0 },
+            "goals_for": { "type": "integer", "minimum": 0 },
+            "goals_against": { "type": "integer", "minimum": 0 },
+            "points": { "type": "integer", "minimum": 0 }
+          },
+          "required": ["position", "team", "played", "won", "drawn", "lost", "goals_for", "goals_against", "points"]
+        }
+      },
+      "premier_league_top_scorers": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "rank": { "type": "integer", "minimum": 1 },
+            "player_name": { "type": "string" },
+            "team": { "type": "string" },
+            "goals": { "type": "integer", "minimum": 0 }
+          },
+          "required": ["rank", "player_name", "team", "goals"]
+        }
+      }
+    },
+    "required": ["football_scores_and_fixtures", "premier_league_table", "premier_league_top_scorers"]
+  }
+  
